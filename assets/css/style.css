@@ -33,17 +33,19 @@
     background-color: rgba(0, 0, 0, .5);
     box-shadow: 0 0 1px rgba(255, 255, 255, .5);
   }
-  
+  /* General style for body */
   body {
       margin-top: 10px;
   }
   
+  /* Style for textarea input */
   textarea  
   {  
      font-family: "Menlo", 'Courier New', Courier, monospace;
      height: 25vh;
   }
   
+  /* Style for modal-body */
   .modal-body {
       max-height: 60vh;
       overflow-y: scroll;
