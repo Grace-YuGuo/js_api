@@ -1,10 +1,9 @@
 # JS_API
 
-JS_API is a site that can check the javascript code quality by using API.
+JS_API is a site that can check the javascript code quality by communicating with API of JSHint. It can check the API Key status(valid until date) and provide the feedback about the javascript code quality by listing the errors if applicable or showing no errors existing in your javascript code.
 
 
-
-![Responsive Mockup](documentation/screenshots/responsive-design.png)
+![Responsive Mockup](documentation/screenshots/xx.png)
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
@@ -20,38 +19,16 @@ JS_API is a site that can check the javascript code quality by using API.
 -   ### User stories
 
     -   #### Homepage:
-        1. In order to **learn about the Principles of prevent** as a **user**, I can **go to the principles section on the homepage**
-        2. In order to **learn about the objectives of prevent** as a **user**, I can **go to the objectives section on the homepage**
-        3. In order to **understand what website I am on** as a **user**, I can **see the welcome message/title on the homepage**
-        4. In order to **understand how prevent operates within the wider context of counter-terrorism** as a **user**, I can **go to the section on the homepage**
+        1. In order to **learn about the API status** as a **user**, I can **check the status on homepage**
+        2. In order to **learn about the quality of the javascript codes** as a **user**, I can **input my code**
+        3. In order to **learn about the results of errors** as a **user**, I can **see the error response from API**
 
     -   #### Navigation:
-        1. In order to Menu - links to each page as a **user*, I can **click in each page on navigation bar**
-        2. In order to **links to sections** as a **user*, I can **click on each section in navigation bar**
-	
+  
     -   #### Footer:
-        1. In order to **in alignment with legal requirement on copyright** as a **website owner**, I can **post disclaimer information visible to all users**
-        2. In order to **check if anything relating to copyright issues** as a **user**, I can **have visibility of the disclaimer information**
-        3. In order to **add interaction with user** as a **website owner**, I can **collect user’ feedback on their experiences of the website**
-        4. In order to **interact with the website** as a **user**, I can **give feedback of the website exploring experience**
-        5. In order to **access related social media  links** as a **user**, I can **quickly connect to the social media platforms**
-        6. In order to *access external links to workshops** as a **user**, I can **quickly connect to the further related workshops**
-
+    
     -   #### Case studies:
-        1. In order to **learn about Local examples** as a **user**, I can **find the section on the case studies page**
-        2. In order to **learn about national examples** as a **user**, I can **find the section on the case studies page**
-        3. In order to **learn about community initiatives** as a **user**, I can **find the section on the resources page and  follow links to their websites**
-
-    -   #### Resources:
-        1. In order to ** watch you-tube -videos** as a **user**, I can **click on videos in resources**
-        2. In order to **see  profile picture of reformed extremist* as a *user*, I can **click on profile picture in resources**
-        3. In order to **embedded Iframes ** as a **user** , I can  adds the content of the new page while keeping the content of the current document unchanged**
-
-    -   #### Advice:
-        1. In order to **contact authorities if required** as a **user**, I can **have access to contact authorities**
-        2. In order to **contact for further advice/help** as a **user**, I can **leave the contact details for further correspondences**
-        3. In order to **get advice on how to talk to potential extremist friend** as a **user**, I can **get related advice on this topic**
-
+  
      
 ## Features 
 
@@ -59,53 +36,37 @@ JS_API is a site that can check the javascript code quality by using API.
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Case Studies, Resources, and Advice page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages (TBD)
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](documentation/screenshots/header.png)
+![Nav Bar](documentation/screenshots/xx.png)
 
-- __Principles and Objectives Section__
+- __Check status Section__
 
-  - On the landing page the first thing the user can see is a summary of what Prevent aims to do, how schools are involved, the role of prevent officers, and how to spot the signs of radicalisation.
-  - The user will see the value prevent and will hopefully want to learn more on the other web pages.
+  - On the landing page the first thing the user can see checking status button.
+  - The user can click the button to get the status of API key.
 
-![Club Ethos](documentation/screenshots/home.png)
+![Check Status Button](documentation/screenshots/xx.png)
 
-- __The Footer__ 
+- __Code information form input Section__ 
+  - On the landing page the information input form.
+  - The user can input file name or url or code which to be checking the quality.
 
-  - The footer section includes copyright disclaimer information, a button to a feedback modal form, and social media links to counter terrorism police UK.
+![Code Information From input](documentation/screenshots/xx.png)
+
+- __Footer Section__ 
+  - The footer section includes copyright disclaimer information (TBD)
   - The footer is valuable to the user as it encourages them to keep connected via social media, provide us with feedback, and informs any concerned parties of our sources of information.
 
 ![Footer](documentation/screenshots/footer.png)
 
 - __Feedback Modal__ 
 
-  - The feedback button found in the footer, opens up a modal which has an email field, textbox area, close and send buttons.
-  - This allows the user to send any feedback they want to about the website, increasing their engagement.
+  - The submit button, opens up a modal which has an results/response from API JSHint
+  - This allows the user to have visibility about the quality of the code.
 
 ![feedback modal](documentation/screenshots/feedback-form.png)
 
-- __Resources Page__
-
-  - The resources page will provide the user with motivational images relating to the elements of Prevent; as well as embed youtube videos from related organizations.
-  - This page is useful to the user as it condenses factual information into easily digestible segments.
-
-![Gallery](documentation/screenshots/resources-mobile.png)
-
-- __Advice Page__
-
-  - This page allows the user to find the appropriate authorities to contact about their concerns.
-  - Alternatively they can provide their contact information if they wish to be contacted. They also have the option to specify their preferred means of contact.
-  - This page is useful to the user as after viewing the other pages, they may recognise symptons of radicalisation in a friend/themself, and need advice on what to do.
-
-![Sign Up](documentation/screenshots/advice.png)
-
-- __Case Studies Page__
-
-  - The case studies page will provide the user examples of how Prevent has stepped in, and deradicalised people before they put themselves or others to harm.
-  - This page is useful to the user as it puts faces to the issue of extremism and shows how things can be turned around. This personifies the issues the site is trying to convey.
-
-![Case Studies](documentation/screenshots/case-studies.png)
 
 ### Features Left to Implement
 
