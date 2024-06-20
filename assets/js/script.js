@@ -1,13 +1,14 @@
+// Global variables
 const API_KEY = "Uh0gMz67NcPQhDeUQH3tWWRd568";
 const API_URL = "https://ci-jshint.herokuapp.com/api";
 const resultsModel = new bootstrap.Modal(document.getElementById("resultsModal"));
 
 // console.log(resultsModel);
-
 document.getElementById("status").addEventListener("click", e => getStatus(e));
 document.getElementById("submit").addEventListener("click", e => postForm(e));
 
 
+// To send post request to API, API responses (the return data) to be displayed through modal element
 async function postForm(e) {
     const form = new FormData(document.getElementById("checksform"));
 
@@ -35,6 +36,7 @@ async function postForm(e) {
 
 }
 
+//To display the data response from API
 function displayJshint(data){
     let heading = `Your JSHint check result for ${data.file}is:`;
 
@@ -57,7 +59,7 @@ function displayJshint(data){
 
 }
 
-
+//To request API key status from API
 async function getStatus(e) {
     const queryString = `${API_URL}?api_key=${API_KEY}`;
     const response = await fetch(queryString);
@@ -71,6 +73,7 @@ async function getStatus(e) {
     }
 }
 
+//To display the API key status response from API
 function displayStatus(data) {
 
     let heading = "API Key Status";
@@ -81,5 +84,4 @@ function displayStatus(data) {
     resultModalBody = document.getElementById("results-content").innerHTML = results;
 
     resultsModel.show();
-
 }
